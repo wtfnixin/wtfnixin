@@ -1,0 +1,71 @@
+<svg width="820" height="430" viewBox="0 0 820 430" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Menlo, Consolas, 'Courier New', monospace">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- window -->
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="800" height="410" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <!-- title bar -->
+    <rect x="10" y="10" width="800" height="36" rx="12" fill="#0d1117"/>
+    <rect x="10" y="34" width="800" height="12" fill="#0d1117"/>
+    <circle cx="34" cy="28" r="6" fill="#ff5f56"/>
+    <circle cx="54" cy="28" r="6" fill="#ffbd2e"/>
+    <circle cx="74" cy="28" r="6" fill="#27c93f"/>
+    <text x="410" y="32" text-anchor="middle" font-size="12.5" fill="#8b949e">tech-stack.json — zsh</text>
+  </g>
+
+  <!-- terminal content -->
+  <g font-size="14.5" fill="#c9d1d9">
+    <!-- line 1 -->
+    <text x="30" y="76">
+      <tspan fill="#7ee787">nitin@dev</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan>
+    </text>
+    <!-- line 2 -->
+    <text x="30" y="100" fill="#8b949e">Full-Stack Developer • B.Tech CS Student @ Jain University</text>
+
+    <!-- line 4 -->
+    <text x="30" y="140">
+      <tspan fill="#7ee787">nitin@dev</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat tech-stack.json</tspan>
+    </text>
+
+    <text x="30" y="166" fill="#8b949e">{</text>
+
+    <text x="46" y="190">
+      <tspan fill="#79c0ff">"languages"</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#ffa657">"C"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Java"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"JavaScript"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Python"</tspan><tspan fill="#8b949e">],</tspan>
+    </text>
+
+    <text x="46" y="214">
+      <tspan fill="#79c0ff">"frontend"</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#ffa657">"HTML5"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"CSS3"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"React"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Next.js"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Vite"</tspan><tspan fill="#8b949e">],</tspan>
+    </text>
+
+    <text x="46" y="238">
+      <tspan fill="#79c0ff">"backend"</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#ffa657">"Node.js"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Express"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"FastAPI"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"JWT"</tspan><tspan fill="#8b949e">],</tspan>
+    </text>
+
+    <text x="46" y="262">
+      <tspan fill="#79c0ff">"databases"</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#ffa657">"MongoDB"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"PostgreSQL"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"MySQL"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"SQLite"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Supabase"</tspan><tspan fill="#8b949e">],</tspan>
+    </text>
+
+    <text x="46" y="286">
+      <tspan fill="#79c0ff">"cloud_devops"</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#ffa657">"AWS"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"GCP"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Cloudflare"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Vercel"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Docker"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Firebase"</tspan><tspan fill="#8b949e">],</tspan>
+    </text>
+
+    <text x="46" y="310">
+      <tspan fill="#79c0ff">"design"</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#ffa657">"Figma"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Photoshop"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Premiere Pro"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"After Effects"</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ffa657">"Canva"</tspan><tspan fill="#8b949e">]</tspan>
+    </text>
+
+    <text x="30" y="334" fill="#8b949e">}</text>
+
+    <!-- prompt line with blinking cursor -->
+    <text x="30" y="374">
+      <tspan fill="#7ee787">nitin@dev</tspan><tspan fill="#8b949e">:~$ </tspan>
+    </text>
+    <rect x="118" y="360" width="9" height="16" fill="#c9d1d9">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
