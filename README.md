@@ -1,3 +1,14 @@
+<div align="center">
+<table>
+<tr>
+<td><img src="./assets/ascii-portrait.svg" width="1000"/></td>
+<td><img src="./assets/tech-stack-terminal.svg" width="1600"/></td>
+</tr>
+</table>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=1000&color=7EE787&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Nitin+%F0%9F%91%8B;Full-Stack+Developer;B.Tech+CS+Student+%40+Jain+University;Learning+Java+%26+Node.js" alt="Typing SVG" />
+</div>
+<br/>
+
 # 💫 About Me:
 I am currently Pursuing B.Tech 2nd Year in Jain University<br>Looking forward to collaborate to open-source projects<br>Learning JAVA and Nodejs
 
